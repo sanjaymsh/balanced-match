@@ -14,3 +14,7 @@ matrix:
     exclude:
          - node_js: "0.12"
            arch: ppc64le
+
+script:
+   - npm install
+   - npm test
